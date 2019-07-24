@@ -131,6 +131,7 @@ void flushDigital(bool flushPoint = false)
 
 void loop() 
 {
+  writePoint();
   writeOne();
   flushDigital();
   writeTwo();
